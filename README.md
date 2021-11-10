@@ -1,5 +1,5 @@
 # Projeto Cadastro-Usuarios
-[![NPM](https://img.shields.io/npm/l/react)]https://github.com/LombaAnderson/Cadastro-Usuarios/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)(https://github.com/LombaAnderson/Cadastro-Usuarios/blob/main/LICENSE)
 
 
 # Sobre o projeto
