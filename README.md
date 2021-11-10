@@ -76,3 +76,5 @@ https://www.linkedin.com/in/anderson-lomba-140279142/
 Portfólio
 
 https://www.lombanderson.epizy.com
+
+Agradeço a Deus e todas as pessoas que estão sempre torcendo por mim!
