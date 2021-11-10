@@ -10,7 +10,7 @@ e é possível enviar e receber mensagens. Foi criada também uma API REST para 
 
 ## Imagem do front-end do chat
 <div align="center">
-<img src="https://user-images.githubusercontent.com/60937513/141195623-b83a5a03-283c-4894-9180-4ef13b8611af.png" width="600" />
+<img src="https://user-images.githubusercontent.com/60937513/141195980-defa013d-7094-4578-bbda-033ae42b1b0f.png" width="600" />
 </div>
 
 # Tecnologias utilizadas
