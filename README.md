@@ -19,7 +19,7 @@ e é possível enviar e receber mensagens. Foi criada também uma API REST para 
 - express
 - mongoose
 - bcrypt
--jwt
+- jwt
 -nodemon
 
 -Acesso ao Mongodb Atlas
@@ -33,7 +33,7 @@ SECRET= DUJHASJKSAPFSAFCB78787997865D
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: NodeJs, 
+Pré-requisitos: NodeJs e bibliotecas necessárias.
 
 ```bash
 # clonar repositório
@@ -72,3 +72,6 @@ Anderson Lomba de Oliveira
 Linkedin
 
 https://www.linkedin.com/in/anderson-lomba-140279142/
+
+Portfólio
+https://www.lombanderson.epizy.com
