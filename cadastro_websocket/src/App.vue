@@ -1,0 +1,18 @@
+<template>
+  <div id="app">
+    <img alt="Chat" src="src./assets/chat.jpg" />
+  </div>
+</template>
+
+<script>
+import Chat from "./components/Chat.vue";
+
+export default {
+  components: {
+    Chat,
+  },
+};
+</script>
+
+<style>
+</style>

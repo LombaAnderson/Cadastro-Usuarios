@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Chat</title>
+
+      <style>
+            body {
+                  background-color: #20B2AA;
+                  font-family: "Montserrat", sans-serif;
+                  display: grid;
+                  justify-items: center;
+            }
+
+            input {
+                  padding: 10px 60px;
+            }
+
+            button {
+                  background-color: #fa4410;
+                  padding: 10px 20px;
+                  cursor: pointer;
+                  border: 1px solid #000;
+                  color: white;
+                  font-weight: bold;
+                  border-radius: 5px;
+                  border-bottom: 3px solid black;
+            }
+      </style>
+</head>
+
+<body>
+      <img src="src/assets/chat.jpg" width=300 height=200>
+
+      Socket.io Chat
+      <div id="app">
+            <ul>
+                  <li :key="'message' + index" v-for="(message, index) in listOfMessages">
+                        {{message}}
+                  </li>
+            </ul>
+            <input type="text" v-model="input" />
+            <button @click="sendPrivateMessage">Enviar para mim</button>
+            <button @click="sendGlobalMessage">Enviar para todos</button>
+            <button @click="sendBroadcastMessage">Enviar para todos menos para mim</button>
+      </div>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+      <script>
+            const socket = io();
+            const vueApp = new Vue({
+                  el: "#app",
+                  data: {
+                        input: "",
+                        listOfMessages: [],
+                  },
+                  methods: {
+                        sendPrivateMessage() {
+                              socket.emit("private message", this.input);
+                              this.input = "";
+                        },
+                        sendGlobalMessage() {
+                              socket.emit("global message", this.input);
+                              this.input = "";
+                        },
+                        sendBroadcastMessage() {
+                              socket.emit("broadcast message", this.input);
+                              this.input = "";
+                        },
+                  },
+            });
+            socket.on("chat message", (message) => {
+                  vueApp.listOfMessages.push(message);
+            });
+      </script>
+</body>
+
+</html>
