@@ -9,7 +9,9 @@ e é possível enviar e receber mensagens. Foi criada também uma API REST para 
 
 
 ## Imagem do front-end do chat
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/60937513/139591317-c05d7f19-7ffb-4da0-bc3d-bc19dd1d92b5.png" width="400px" />
+</div>
 
 # Tecnologias utilizadas
 ## Back end
