@@ -3,9 +3,7 @@
 
 
 # Sobre o projeto
-
-Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para multiplos usuários com a utilização de Endpoints para que seja possível criar e se conectar a uma sala criada com Socket I/O 
-e é possível enviar e receber mensagens. Foi criada também uma API REST para cadastro de nome de usuário, e-mail e senha em NodeJs, criação de banco de dados em Mongodb Atlas(abaixo disponibilizo temporariamente a senha para acesso que depois será retirada) e no login do cadastro foi criado em token(JWT) e usado o Postman para verificação.  
+Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para múltiplos usuários com a utilização de Endpoints para que seja possível criar e se conectar a uma sala de chat feita com Socket I/O  onde é possível enviar e receber mensagens. Foi criada também uma API REST para cadastro de nome de usuário, e-mail e senha em NodeJs, desenvolvimento  de banco de dados em Mongodb Atlas(abaixo disponibilizo temporariamente a senha para acesso que depois será retirada) e o login do cadastro foi feito com token(JWT)  com aplicação de acesso com senha segura .
 
 
 ## Imagem do front-end do chat
