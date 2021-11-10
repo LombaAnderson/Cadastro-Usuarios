@@ -20,7 +20,7 @@ Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para 
 - jwt
 -nodemon
 
--Acesso ao Mongodb Atlas
+-Acesso ao Mongodb Atlas : 
 DB_USER=anderson
 DB_PASS=2nvzrfSGS4zqOG3g
 SECRET= DUJHASJKSAPFSAFCB78787997865D
