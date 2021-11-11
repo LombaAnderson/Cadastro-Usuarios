@@ -3,7 +3,7 @@
 
 
 # Sobre o projeto
-Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para múltiplos usuários com a utilização de Endpoints para que seja possível criar e se conectar a uma sala de chat feita com Socket I/O  onde é possível enviar e receber mensagens. Foi criada também uma API REST para cadastro de nome de usuário, e-mail e senha em NodeJs, desenvolvimento  de banco de dados em Mongodb Atlas(abaixo disponibilizo temporariamente a senha para acesso que depois será retirada) e o login do cadastro foi feito com token(JWT)  com aplicação de acesso com senha segura .
+Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para múltiplos usuários com a utilização de Endpoints para que se possa criar e se conectar a uma sala de chat feita com Socket I/O  onde se pode enviar e receber mensagens. Foi criada também uma API REST para cadastro de nome de usuário, e-mail e senha em NodeJs, desenvolvimento  de banco de dados em Mongodb Atlas(abaixo disponibilizo temporariamente a senha para acesso que depois será retirada) e o login do cadastro foi feito com token(JWT) que tem aplicação de acesso com senha segura .
 
 
 ## Imagem do front-end do chat
@@ -77,4 +77,4 @@ https://www.lombanderson.epizy.com
 
 # Agradecimentos
 
-Agradeço a Deus e todas as pessoas que estão sempre torcendo por mim!
+Agradeço a Deus e a todas as pessoas que estão sempre torcendo por mim!
