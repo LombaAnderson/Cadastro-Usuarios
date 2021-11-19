@@ -21,9 +21,7 @@ Cadastro-Usuarios é um sistema de chat onde é possível enviar mensagens para 
 -nodemon
 
 -Acesso ao Mongodb Atlas : 
-DB_USER=anderson
-DB_PASS=2nvzrfSGS4zqOG3g
-SECRET= DUJHASJKSAPFSAFCB78787997865D
+Por motivo de segurança retirei a senha e se alguém precisar para ter acesso pode me pedir no email andersonlomba172@gmail.com
 
 ## Front end
 - Vuejs / CSS / JS 
